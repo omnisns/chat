@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>用户列表</title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+</head>
+<body>
+<h1><%= title %></h1>
+
+<ul>
+    <% for(var i = 0 ; i < users.length ; i++){ %>
+        <li><%= users[i].name%>&nbsp;<%= users[i].sex%></li>
+    <%}%>
+</ul>
+</body>
+</html>
