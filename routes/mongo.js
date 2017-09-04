@@ -10,7 +10,7 @@ var mongoose = require("mongoose");
 
 mongoose.Promise = global.Promise;
 //数据库连接
-mongoose.connect("mongodb://localhost:27017/user",{useMongoClient:true});
+mongoose.connect("mongodb://localhost:27017/synchea",{useMongoClient:true});
 //连接状态
 var connection = mongoose.connection;
 
